@@ -79,8 +79,7 @@ int main(int argc, char** argv) {
     std::ifstream file(argv[1]);
     int x;
     std::vector<int> sudoku;
-    while (file >> x)
-    {
+    while (file >> x) {
         sudoku.push_back(x);
     }
     draw(sudoku);
