@@ -55,7 +55,7 @@ bool solve(std::vector<int> sudoku) {
         }
     }
     int min = 9;
-    int index = -1;
+    int index = 0;
     for (int i = 0; i < 81; i++) {
         if (options[i].size() > 0 && options[i].size() < min) {
             min = options[i].size();
